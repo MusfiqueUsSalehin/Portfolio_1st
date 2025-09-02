@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #2d545e;
+  margin: 0;
+}
+.service-container {
+  max-width: 700px;
+  background: black;
+  color: #c69e7b;
+  margin: 290px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+  padding: 32px;
+  text-align: center;
+}
+
+
+
+.typing-text {
+  font-family: monospace;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid #c69e7b;
+  width: 20ch; /* Adjust to length of your text */
+  animation: typing 2.5s steps(18), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 18ch }
+}
+
+@keyframes blink-caret {
+  50% { border-color: transparent }
+  100% { border-color: #c69e7b }
+}
+
+
+
+.back-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #c69e7b;
+  color: black;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 0 5px #ddd ;
+  font-weight: bold;
+}

@@ -1,0 +1,81 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #2d545e;
+  margin: 0;
+}
+.contact-container {
+  max-width: 700px;
+  background: black;
+  color: #c69e7b;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ddd;
+  padding: 32px;
+}
+h2 {
+  text-align: center;
+}
+.contact-info {
+  margin-bottom: 32px;
+  padding-left: 0px;
+}
+
+.contact-info li {
+  list-style: none;
+  margin: 12px 0;
+  
+}
+.contact-info i {
+  width: 24px;
+}
+form {
+  display: grid;
+  gap: 16px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input,
+textarea {
+  width: 98%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.send-btn {
+  background:#c69e7b;
+  color: black;
+  border: none;
+  padding: 12px 0;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.back-btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background: #c69e7b;
+  color: black;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 0 5px #ddd ;
+  font-weight: bold;
+}
+
+.send-btn:hover {
+  background: #005fa3;
+}
+@media (max-width: 500px) {
+  .contact-container {
+    padding: 12px;
+  }
+}
