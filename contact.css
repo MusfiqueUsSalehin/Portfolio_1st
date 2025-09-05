@@ -37,8 +37,7 @@ label {
   margin-bottom: 5px;
   font-weight: bold;
 }
-input,
-textarea {
+input,textarea {
   width: 98%;
   padding: 8px;
   border: 1px solid #ccc;
@@ -74,8 +73,31 @@ textarea {
 .send-btn:hover {
   background: #005fa3;
 }
-@media (max-width: 500px) {
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 950px) {
   .contact-container {
-    padding: 12px;
+    margin: 20px;
+    padding: 20px;
+    margin-top: 100px;
   }
+
+  input,textarea {
+  width: 95%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+  
+    
+    
 }

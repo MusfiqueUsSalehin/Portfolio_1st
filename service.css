@@ -52,3 +52,24 @@ body {
   box-shadow: 0 0 5px #ddd ;
   font-weight: bold;
 }
+
+
+
+@media (max-width: 950px) {
+.service-container {
+  max-width: 70%;
+  
+ 
+  margin: 290px auto;
+  
+ 
+  padding: 32px;
+
+  }
+
+  
+  
+
+
+
+}
